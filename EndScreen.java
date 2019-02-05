@@ -72,7 +72,7 @@ public class EndScreen
         InputStream in;
         try
         {
-            in = new FileInputStream(new File("D:\\Final Jeffrey's Safari\\src\\SuccessMusic.wav"));
+            in = new FileInputStream(new File("C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\SuccessMusic.wav"));
             successaudio = new AudioStream(in);
             AudioPlayer.player.start(successaudio);
         }
@@ -87,7 +87,7 @@ public class EndScreen
         InputStream in;
         try
         {
-            in = new FileInputStream(new File("D:\\Final Jeffrey's Safari\\src\\FailureMusic.wav"));
+            in = new FileInputStream(new File("C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\FailureMusic.wav"));
             failureaudio = new AudioStream(in);
             AudioPlayer.player.start(failureaudio);
         }

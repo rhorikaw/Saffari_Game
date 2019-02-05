@@ -13,7 +13,7 @@ public class GameState extends State
     public GameState(Handler handler, KeyManager manager)
     {
         super(handler);
-        world = new World(handler, "D:\\Final Jeffrey's Safari\\src\\World1.txt");
+        world = new World(handler, "C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\World1.txt");
         handler.setWorld(world);
         player = new Player(handler, 896, 5120, 64, 64, manager);
     }

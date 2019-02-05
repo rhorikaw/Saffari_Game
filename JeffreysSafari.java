@@ -272,7 +272,7 @@ public class JeffreysSafari
         InputStream in;
         try
         {
-            in = new FileInputStream(new File("E:\\Final Jeffrey's Safari\\src\\WalkMusic.wav"));
+            in = new FileInputStream(new File("WalkMusic.wav"));
             walkaudio = new AudioStream(in);
             AudioPlayer.player.start(walkaudio);
         }
@@ -409,9 +409,9 @@ public class JeffreysSafari
         try
         {
             if(wildpokemon.getName().equals("JARAMBE"))
-                in = new FileInputStream(new File("E:\\Final Jeffrey's Safari\\src\\JamesBattleMusic.wav"));
+                in = new FileInputStream(new File("C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\JamesBattleMusic.wav"));
             else
-                in = new FileInputStream(new File("E:\\Final Jeffrey's Safari\\src\\BattleMusic.wav"));
+                in = new FileInputStream(new File("C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\BattleMusic.wav"));
             battleaudio = new AudioStream(in);
             AudioPlayer.player.start(battleaudio);
         }
@@ -426,7 +426,7 @@ public class JeffreysSafari
         InputStream in;
         try
         {
-            in = new FileInputStream(new File("E:\\Final Jeffrey's Safari\\src\\CaptureMusic.wav"));
+            in = new FileInputStream(new File("C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\CaptureMusic.wav"));
             captureaudio = new AudioStream(in);
             AudioPlayer.player.start(captureaudio);
         }

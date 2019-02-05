@@ -51,7 +51,7 @@ public class Player extends Entity
         inCave = false;
         keymanager = manager;
         
-        world = new World(handler, "E:\\Final Jeffrey's Safari\\src\\CaveWorld.txt");
+        world = new World(handler, "C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\CaveWorld.txt");
         
         u = Assets.up;
         d = Assets.down; 
@@ -172,7 +172,7 @@ public class Player extends Entity
         InputStream in;
         try
         {
-            in = new FileInputStream(new File("E:\\Final Jeffrey's Safari\\src\\WalkMusic.wav"));
+            in = new FileInputStream(new File("C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\WalkMusic.wav"));
             walkaudio = new AudioStream(in);
             AudioPlayer.player.start(walkaudio);
         }
@@ -187,7 +187,7 @@ public class Player extends Entity
         InputStream in;
         try
         {
-            in = new FileInputStream(new File("E:\\Final Jeffrey's Safari\\src\\CaveMusic.wav"));
+            in = new FileInputStream(new File("C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\CaveMusic.wav"));
             caveaudio = new AudioStream(in);
             AudioPlayer.player.start(caveaudio);
         }

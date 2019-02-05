@@ -97,7 +97,7 @@ public class BattlePlayer
         InputStream in;
         try
         {
-            in = new FileInputStream(new File("D:\\Final Jeffrey's Safari\\src\\WalkMusic.wav"));
+            in = new FileInputStream(new File("C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\WalkMusic.wav"));
             walkaudio = new AudioStream(in);
             AudioPlayer.player.start(walkaudio);
         }

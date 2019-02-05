@@ -10,7 +10,7 @@ public class CaveGameState extends State
     public CaveGameState(Handler handler, KeyManager manager)
     {
         super(handler);
-        world = new World(handler, "D:\\Final Jeffrey's Safari\\src\\CaveWorld.txt");
+        world = new World(handler, "C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\CaveWorld.txt");
         handler.setWorld(world);
         player = new CaveGamePlayer(handler, 448, 960, 64, 64, manager);
     }

@@ -134,7 +134,7 @@ public class CaveGamePlayer extends Entity
         InputStream in;
         try
         {
-            in = new FileInputStream(new File("D:\\Final Jeffrey's Safari\\src\\CaveMusic.wav"));
+            in = new FileInputStream(new File("C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\CaveMusic.wav"));
             caveaudio = new AudioStream(in);
             AudioPlayer.player.start(caveaudio);
         }
@@ -149,7 +149,7 @@ public class CaveGamePlayer extends Entity
         InputStream in;
         try
         {
-            in = new FileInputStream(new File("D:\\Final Jeffrey's Safari\\src\\WalkMusic.wav"));
+            in = new FileInputStream(new File("C:\\Users\\richm\\OneDrive\\Documents\\NetBeansProjects\\Final Jeffrey's Safari\\src\\WalkMusic.wav"));
             walkaudio = new AudioStream(in);
             AudioPlayer.player.start(walkaudio);
         }
@@ -173,22 +173,22 @@ public class CaveGamePlayer extends Entity
         }
         if(handler.getKeyManager().up)
         {
-            yMove = -13;
+            yMove = -3;
             lastmove = 0;
         }
         if(handler.getKeyManager().down)
         {
-            yMove = 13;
+            yMove = 3;
             lastmove = 1;
         }
         if(handler.getKeyManager().left)
         {
-            xMove = -13;
+            xMove = -3;
             lastmove = 2;
         }
         if(handler.getKeyManager().right)
         {
-            xMove = 13;
+            xMove = 3;
             lastmove = 3;
         }
     }
